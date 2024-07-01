@@ -11,6 +11,8 @@ import java.util.Collection;
 public class User implements UserDetails {
     private long id;
 
+    private String email;
+
     private String username;
 
     private String password;
