@@ -10,7 +10,7 @@ import java.util.Collection;
 @Setter
 public class User implements UserDetails {
 
-    private long id;
+    private Long id;
 
     private String email;
 
