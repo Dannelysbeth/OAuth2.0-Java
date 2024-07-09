@@ -1,2 +1,2 @@
 
-OAuth2.0 Java backend app for Google authentication and authorization 
+OAuth2.0 Java app for Google authentication and authorization 
