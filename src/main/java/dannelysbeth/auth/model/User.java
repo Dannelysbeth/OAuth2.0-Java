@@ -2,12 +2,17 @@ package dannelysbeth.auth.model;
 
 
 import lombok.Setter;
+import org.springframework.data.jpa.repository.EntityGraph;
+import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
+import javax.persistence.Entity;
 import java.util.Collection;
 
 @Setter
+@Entity
+@Document
 public class User implements UserDetails {
 
     private Long id;
