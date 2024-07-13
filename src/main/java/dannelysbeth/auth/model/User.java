@@ -2,12 +2,12 @@ package dannelysbeth.auth.model;
 
 
 import lombok.Setter;
-import org.springframework.data.jpa.repository.EntityGraph;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.util.Collection;
 
 @Setter
@@ -15,6 +15,7 @@ import java.util.Collection;
 @Document
 public class User implements UserDetails {
 
+    @Id
     private Long id;
 
     private String email;
@@ -56,5 +57,13 @@ public class User implements UserDetails {
     @Override
     public boolean isEnabled() {
         return false;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 }
