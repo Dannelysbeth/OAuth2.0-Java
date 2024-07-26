@@ -1,3 +1,3 @@
 
-OAuth2.0 Java app for Google and Microsoft authentication and authorization 
+OAuth2.0 Java app for Google authentication and authorization 
 
