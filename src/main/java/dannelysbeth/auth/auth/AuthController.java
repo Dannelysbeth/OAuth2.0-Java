@@ -1,6 +1,7 @@
 package dannelysbeth.auth.auth;
 
 import lombok.RequiredArgsConstructor;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -13,6 +14,11 @@ public class AuthController {
 
 
     ///method to implement data
+    @GetMapping("/login")
+    public void login(){
+
+    }
+
 
 
 }
