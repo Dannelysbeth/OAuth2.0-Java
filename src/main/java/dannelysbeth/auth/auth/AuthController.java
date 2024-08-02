@@ -19,6 +19,11 @@ public class AuthController {
 
     }
 
+    @GetMapping("/register")
+    public void register(){
+
+    }
+
 
 
 }
