@@ -15,15 +15,14 @@ public class AuthController {
 
     ///method to implement data
     @GetMapping("/login")
-    public void login(){
+    public void login() {
 
     }
 
     @GetMapping("/register")
-    public void register(){
+    public void register() {
 
     }
-
 
 
 }
