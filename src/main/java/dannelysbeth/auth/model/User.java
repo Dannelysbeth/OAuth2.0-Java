@@ -1,6 +1,7 @@
 package dannelysbeth.auth.model;
 
 
+import lombok.Getter;
 import lombok.Setter;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.security.core.GrantedAuthority;
@@ -13,6 +14,7 @@ import java.util.Collection;
 @Setter
 @Entity
 @Document
+@Getter
 public class User implements UserDetails {
 
     @Id
