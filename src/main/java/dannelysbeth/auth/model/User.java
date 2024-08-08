@@ -20,14 +20,22 @@ public class User implements UserDetails {
     @Id
     private Long id;
 
+    @Setter
     private String email;
+
+    @Setter
 
     private String username;
 
+    @Setter
+
     private String password;
+
+    @Setter
 
     private String firstname;
 
+    @Setter
     private String lastname;
 
     @Override
