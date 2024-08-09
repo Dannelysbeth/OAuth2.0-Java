@@ -24,15 +24,12 @@ public class User implements UserDetails {
     private String email;
 
     @Setter
-
     private String username;
 
     @Setter
-
     private String password;
 
     @Setter
-
     private String firstname;
 
     @Setter
