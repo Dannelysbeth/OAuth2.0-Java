@@ -23,7 +23,6 @@ public class User implements UserDetails {
     @Setter
     private String email;
 
-    @Setter
     private String username;
 
     @Setter
