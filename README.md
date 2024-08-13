@@ -1,4 +1,3 @@
 
-OAuth2.0 Java app for Google authentication and authorization with MongoDB as it's database.
-
+Simple Spring Boot App for Security Social Login with Github and Google Auth Options
 
